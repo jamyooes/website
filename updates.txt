@@ -1,0 +1,109 @@
+##################################
+Day 1: 1/9/2025
+What did I do?
+Read through w3 schools on HTML, CSS, and JS
+----------------------------------------------------------------
+HTML Common stuff:
+Doctype declaration indicates the document type and helps browsers display web pages correctly
+html tag defines the root of HTML document - contains all html tags except the doctype 
+Lang attribute for SEO for html
+
+Heading tags (1 - 6)
+Good for SE 
+
+p tags
+Links - a tags href = ""
+browsers will typically ignore the whitespace within the tags (javascript is a little different here)
+<hr> tag will have a line and break 
+<br> line break good to move sentence to next line manually
+
+pre tag 
+defines preformatted text and preserves the spaces and breaks 
+
+Attributes - Provide additional info, name val pairs like name = "somename"
+EX: 
+href in anchor tags
+
+Img's Attributes- 
+src pathing can be absolute url to the http page 
+Relative URL within the file pathing
+width and height
+alt represents an alternate text for image if cant be loaded
+
+title attribute: Hovering over an attribute will show more detail
+attributes recommended to be lowercases
+
+styling
+style="color:red;" to do styling in text can also do other stuff 
+but honestly would perfer to do it all in css
+always as properties:value; format
+some common properties:
+background-color 
+color: for text 
+font-family:
+font-size
+text-align
+
+Common text formatting
+<b> bold 
+<strong> looks bolded text stronger than surrounding text  important text to Read
+<i> italic
+<em> empahsis text looks italic
+<small> smaller text 
+<mark> highlighted text 
+<del> strike through the text 
+<ins> underline the text has been inserted in the document 
+<sub> subscript tag 
+<sup> superscript tag 
+
+Quotations
+<blockquote> tag to show cited from source 
+<q> for short quotation 
+<abbr> abbreviates, but when hovering can see the meaning of the word
+<address> pretty much the contact information of the autors and is italicized
+<cite> italicied to give credit 
+<bdo> bi-direcitonal override writes from left to right
+
+Comments 
+<!-- -->
+Can hide multiple lines
+----------------------------------------------------------------
+CSS - Cascading Style Sheets 
+selector (html tag){
+    property: value;
+}
+
+Common properties:
+text-align
+color 
+
+Kinds of selectors 
+1-Css Element selectors general case on all tags 
+2-Id 
+instead of tags, we use id and the html tag uses the id to have css changes 
+defined with #name this is typically used to select one unqiue Element
+3-class based 
+it is .name and used to define html elements with specific class attributes 
+Can also combine class with tags 
+p.center will only work on p tags with class="center" 
+HTML tags can have multiple classes 
+4-Universal 
+* use *
+----------------------------------------------------------------
+JS
+getElementById("demo") - JS HTML method used to fine an HTML element with the id 
+Can modify contents with below example
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+Change style manually (though I doubt this would be useful)
+document.getElementById("demo").style.fontSize = "35px";
+
+Hide elements manually
+document.getElementById("demo").style.display = "none";
+
+Can add JS to HTML using script tags 
+Can just simply do JS from an external script (I would lean towards this)
+<script src="file.js"></script> 
+----------------------------------------------------------------
+Thoughts?
+I used to do webdev briefly during college. Revisiting

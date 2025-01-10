@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+</head>
+<body>
+   <h1>Heading</h1>
+   <p title = "paragraph tag">Paragraph</p> 
+   <a href = "https://www.w3schools.com/html/html_basic.asp">html basics</a>
+   <p id="demo"></p>
+   <button type="button" onclick="myFunction()">Click here for Monkey</button>
+   <button onclick="teleport()">Click here to remove monkey</button>
+   <script>
+    document.getElementById("demo").innerHTML = "Text"
+    function myFunction(){
+        document.getElementById("demo").innerHTML="Monkey"
+    }
+   </script>
+</body>
+
+</html>
