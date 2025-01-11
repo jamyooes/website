@@ -1,4 +1,43 @@
 ##################################
+Day 2: 1/10/2025
+What did I do?
+Continue going through w3 schools on HTML, CSS, and JS
+Thoughts:
+I'm getting bored... I'm just going to do a project
+----------------------------------------------------------------
+HTML:
+COLOR:
+Colors can be specified as their color names or code values 
+RGB, HEX, HSL, RGBA, HSLA (Not going to overthink this)
+
+Background colors (background-color)
+Text colors (color)
+Border Color (border)
+I can figure out color theory if im bored zzzz
+
+CSS: 
+3 options for CSS
+1-Inline style atrribute in HTML tag (Don't use this)
+2-<style> element in the head tag (I'm not going to do this)
+3-<link> element to a css file (I will do this)
+
+Some useful CSS
+text color (color)
+font type (font-family)
+font size (font-size)
+border
+padding - space between the border
+margin - space outside the border
+
+Linking to external
+<link rel="stylesheet" href="path">
+----------------------------------------------------------------
+CSS:
+
+----------------------------------------------------------------
+JS:
+
+----------------------------------------------------------------
 Day 1: 1/9/2025
 What did I do?
 Read through w3 schools on HTML, CSS, and JS
